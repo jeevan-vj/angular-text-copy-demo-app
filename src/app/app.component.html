@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Click copy icon to copy content in below box
+</p>
+<div class="container">
+  <button (click)="doCopy()" title="Copy content in this box" class="material-icons copy-button no-print ng-star-inserted" aria-label="">
+        <span class="copy-span" aria-hidden="true">content_copy</span>
+  </button>
+  <p class="text-content">  {{someContentToCopy}} </p>
+</div>
+
+

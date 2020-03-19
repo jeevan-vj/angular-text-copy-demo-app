@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+
+p {
+  font-family: Lato;
+}
+.container{
+  background-color: #333;
+  border: .5px solid #dbdbdb;
+  border-radius: 5px;
+  color: #333;
+  margin: 16px;
+  clear: both;
+  display: block;
+  position: relative;
+  height:50px;
+  padding:10px;
+}
+.copy-button{
+    box-sizing: border-box;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    min-width: 24px;
+    color: #6e6e6e;
+}
+.text-content{
+  color:#dbdbdb;
+  margin-left: 30px;
+}
